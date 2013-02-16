@@ -213,7 +213,7 @@ endif
 
 " General {{{
 filetype plugin indent on
-colorscheme hybrid
+colorscheme atom
 syntax on
 
 " Set 5 lines to the cursor - when moving vertically
@@ -235,10 +235,10 @@ match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
 
 " You want to be part of the gurus? Time to get in serious stuff and stop using
 " arrow keys.
-noremap <left> <nop>
-noremap <up> <nop>
-noremap <down> <nop>
-noremap <right> <nop>
+" noremap <left> <nop>
+" noremap <up> <nop>
+" noremap <down> <nop>
+" noremap <right> <nop>
 
 " Yank from current cursor position to end of line
 map Y y$
